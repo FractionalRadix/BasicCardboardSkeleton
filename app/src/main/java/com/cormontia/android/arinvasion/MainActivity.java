@@ -22,7 +22,7 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
 
         CardboardView cardboardView = (CardboardView) findViewById( R.id.view );
         cardboardView.setEGLConfigChooser( 8 , 8, 8, 8, 16, 0 );
-        cardboardView.setRestoreGLStateEnabled( false );
+        //cardboardView.setRestoreGLStateEnabled( false );
         cardboardView.setRenderer( this );
         setCardboardView( cardboardView );
     }
